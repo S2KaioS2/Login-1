@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=M+PLUS+Rounded+1c&family=Ramabhadra&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.right-login{
+    background: #23213af5;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #cd7075c7;
+    border: 5px solid #cd7075c7
+}
+
+
+.card-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 35px;
+}
+
+.card-login > h1{
+    color: #ddebfe;
+    font-weight: 800;
+    font-family: "Madimi One", sans-serif;
+    
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #2c294df5;
+    color: #ddebfe;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field > label{
+    color: #ddebfe;
+    margin-bottom: 10px;
+}
+
+.text-field > input::placeholder{
+    color: #e2e9f3;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;  
+    background: #ddebfe;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn-login:hover{
+    box-shadow: 0px 10px 40px -12px #ddebfe;
+    opacity: 1;
+}
